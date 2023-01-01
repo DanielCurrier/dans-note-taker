@@ -5,7 +5,7 @@ const path = require('path');
 
 // Express initialized
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Data parsing 
 app.use(express.urlencoded({ extended: true }));
@@ -13,9 +13,9 @@ app.use(express.json());
 app.use(express.static(__dirname));
 
 // Routes file
-require('./routes/routes').app;
+require('./routes/routes.js')(app);
 
 // Listener setup
 app.listen(PORT, () => {
-    console.log(`App Listening on PORT: ${PORT}!`)
+    console.log(`App Listening on PORT:${PORT}!`)
 });

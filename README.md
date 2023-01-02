@@ -15,7 +15,7 @@ n/a
 ![Note Taker](https://user-images.githubusercontent.com/112973907/210191252-e85e6e5a-fbc8-4a04-af82-6162238c86c8.gif)
 
 To use this program, use this link to go to the deployed application on heroku: 
-https://git.heroku.com/dan-currier-note-taker.git . From there, you will be greeted with a splash screen, click on the 'get started' button to be redirected to the main page. To write a new note, type in a title on the section with the 'Note Title'  description to add a title, and  the ' note text' input  to type in your note. 
+https://dan-currier-note-taker.herokuapp.com/ . From there, you will be greeted with a splash screen, click on the 'get started' button to be redirected to the main page. To write a new note, type in a title on the section with the 'Note Title'  description to add a title, and  the ' note text' input  to type in your note. 
 
 ![Note Taker (1)](https://user-images.githubusercontent.com/112973907/210191306-3f515aec-b466-4138-b7b3-13bf92691e8a.gif)
 
